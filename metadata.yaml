@@ -1,0 +1,7 @@
+name: astrbot_plugin_shinjuku_entertainment
+display_name: 新宿娱乐管理
+desc: 新宿系列群聊娱乐/管理插件：关键词触发禁言等趣味功能，目前提供「精致睡眠」8 小时禁言彩蛋。
+version: v1.0.01
+author: li
+repo: https://github.com/KENKshachu0/astrbot_plugin_shinjuku_entertainment
+astrbot_version: ">=4.16"

@@ -1,0 +1,14 @@
+{
+  "enabled": {
+    "description": "启用精致睡眠禁言彩蛋",
+    "type": "bool",
+    "hint": "关闭后群内发送「精致睡眠」不再触发禁言。",
+    "default": true
+  },
+  "sleep_ban_seconds": {
+    "description": "禁言时长（秒）",
+    "type": "int",
+    "hint": "默认 28800 秒 = 8 小时。",
+    "default": 28800
+  }
+}
