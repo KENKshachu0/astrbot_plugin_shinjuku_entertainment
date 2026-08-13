@@ -92,6 +92,26 @@ class ShinjukuEntertainmentPlugin(Star):
         """占位指令：无反应"""
         event.stop_event()
 
+    @filter.command("s")
+    async def s_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("card")
+    async def card_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("settings")
+    async def settings_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.regex(r"^/?sdvx")
+    async def sdvx_prefix_block(self, event: AstrMessageEvent):
+        """屏蔽 /sdvx 开头的指令：无反应"""
+        event.stop_event()
+
     @filter.platform_adapter_type(filter.PlatformAdapterType.AIOCQHTTP)
     @filter.event_message_type(filter.EventMessageType.GROUP_MESSAGE)
     @filter.regex(r"精致睡眠")
