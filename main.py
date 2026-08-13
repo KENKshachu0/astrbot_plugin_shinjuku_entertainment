@@ -67,6 +67,26 @@ class ShinjukuEntertainmentPlugin(Star):
         """占位指令：无反应"""
         event.stop_event()
 
+    @filter.command("vf")
+    async def vf_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("bind")
+    async def bind_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("b40")
+    async def b40_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("b30")
+    async def b30_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
     @filter.platform_adapter_type(filter.PlatformAdapterType.AIOCQHTTP)
     @filter.event_message_type(filter.EventMessageType.GROUP_MESSAGE)
     @filter.regex(r"精致睡眠")
