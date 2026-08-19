@@ -62,8 +62,48 @@ class ShinjukuEntertainmentPlugin(Star):
         """占位指令：无反应"""
         event.stop_event()
 
+    @filter.command("b60")
+    async def b60_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("ap50")
+    async def ap50_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("find")
+    async def find_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+    
     @filter.command("help")
     async def help_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("roll")
+    async def roll_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("jrys")
+    async def jrys_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("search")
+    async def search_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("info")
+    async def info_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("id")
+    async def id_cmd(self, event: AstrMessageEvent):
         """占位指令：无反应"""
         event.stop_event()
 
@@ -97,6 +137,31 @@ class ShinjukuEntertainmentPlugin(Star):
         """占位指令：无反应"""
         event.stop_event()
 
+    @filter.command("sp")
+    async def sp_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("舞萌定数表")
+    async def maimai_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("中二定数表")
+    async def chuni_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("段位表")
+    async def class_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
+    @filter.command("随机段位")
+    async def random_class_cmd(self, event: AstrMessageEvent):
+        """占位指令：无反应"""
+        event.stop_event()
+
     @filter.command("card")
     async def card_cmd(self, event: AstrMessageEvent):
         """占位指令：无反应"""
@@ -110,6 +175,26 @@ class ShinjukuEntertainmentPlugin(Star):
     @filter.regex(r"^/?sdvx")
     async def sdvx_prefix_block(self, event: AstrMessageEvent):
         """屏蔽 /sdvx 开头的指令：无反应"""
+        event.stop_event()
+
+    @filter.regex(r"^/?iidx")
+    async def iidx_prefix_block(self, event: AstrMessageEvent):
+        """屏蔽 /iidx 开头的指令：无反应"""
+        event.stop_event()
+
+    @filter.regex(r"^/?mai")
+    async def mai_prefix_block(self, event: AstrMessageEvent):
+        """屏蔽 /mai 开头的指令：无反应"""
+        event.stop_event()
+
+    @filter.regex(r"^/?chu")
+    async def chu_prefix_block(self, event: AstrMessageEvent):
+        """屏蔽 /chu 开头的指令：无反应"""
+        event.stop_event()
+
+    @filter.regex(r"^/?score")
+    async def score_prefix_block(self, event: AstrMessageEvent):
+        """屏蔽 /score 开头的指令：无反应"""
         event.stop_event()
 
     @filter.platform_adapter_type(filter.PlatformAdapterType.AIOCQHTTP)
